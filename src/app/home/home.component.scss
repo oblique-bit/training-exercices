@@ -32,11 +32,11 @@ h1, h2, h3 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin-top: 2*$spacing-lg;
+	margin-top: 2*$spacing-xl;
 
 	.mat-card,
 	.card {
-		margin-bottom: $spacing-lg;
+		margin-bottom: $spacing-xl;
 	}
 
 	.mat-card-actions,
