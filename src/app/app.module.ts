@@ -1,14 +1,9 @@
-import {NgModule, LOCALE_ID} from '@angular/core';
+import {LOCALE_ID, NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {
-	ObMasterLayoutModule,
-	multiTranslateLoader,
-	OB_BANNER,
-	ObExternalLinkModule
-} from '@oblique/oblique';
+import {OB_BANNER, ObExternalLinkModule, ObMasterLayoutModule, multiTranslateLoader} from '@oblique/oblique';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {registerLocaleData} from '@angular/common';
 import localeDECH from '@angular/common/locales/de-CH';
